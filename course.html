@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning - Team</title>
+
+    <link rel="shortcut icon" href="images/fabeicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <nav class="md:w-10/12 w-11/12 mx-auto">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a>Team</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="normal-case cursor-pointer text-xl ">
+              <img class="w-40" src="images/logo1.png" alt="">
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-bold text-[#96989B]">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="course.html">Course</a></li>
+              <li><a> Team</a></li>
+              <li><a> Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+    
+            <!-- You can open the modal using ID.showModal() method -->
+            <button
+              class="btn md:py-3 px-3 py-2 md:px-5 cursor-pointer font-bold bg-[#FE7243] rounded-full text-[#fff] flex items-center"
+              onclick="my_modal_5.showModal()">Sign Up <i class="fa-solid fa-arrow-right ml-2"></i></button>
+            <dialog id="my_modal_5" class="modal">
+              <form method="dialog" class="modal-box">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                <h3 class="font-bold text-lg mb-10">Sing Up</h3>
+                <p>
+                  Full Name
+                </p>
+                <input type="text" placeholder=" Full Name" class="input input-bordered w-full max-w-xs my-2" />
+                <p>Your Email</p>
+                <input type="email" placeholder="Your Email" class="input input-bordered w-full max-w-xs my-2" />
+                <p>Password</p>
+                <input type="password" placeholder="Password" class="input input-bordered w-full max-w-xs my-2" />
+                <p>Re-Password</p>
+                <input type="password" placeholder="Re-Password" class="input input-bordered w-full max-w-xs my-2" />
+                <br>
+                <label for="inputx">
+                  <input type="checkbox" name="" id="inputx">
+                  I agree you Condition
+                </label>
+                <br>
+                <input class="btn bg-[#FE7243] text-[#fff]" type="submit" value="Submit">
+              </form>
+            </dialog>
+    
+          </div>
+        </div>
+      </nav>
+
+    <main>
+        <div class="flex h-20 md:h-60 items-center justify-center bg-[#00ABBD]">
+            <h2 class="text-2xl md:text-4xl font-semibold text-[#fff]">Popular Courses</h2>
+        </div>
+        <section class="my-10 w-10/12 mx-auto">
+           
+      
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-10">
+      
+              <div class="border-2 rounded-xl cursor-pointer overflow-hidden">
+                <img class="w-full" src="images/webdesign.png" alt="">
+                <div class="p-4">
+                  <h2 class="text-sm md:text-xl font-bold my-2 text-[#00ABBD]">Web Design Crash Course</h2>
+                  <div class="flex items-center my-4">
+                    <img class="w-14 h-14 border-4 mr-4 border-[#00ABBD] rounded-full" src="images/dev-dipok.jpg" alt="">
+                    <div>
+                      <h2 class="text-xl font-bold">Mentor</h2>
+                      <p class="font-bold text-[#5F6368]">Dev. Dipok Roy</p>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="text-sm font-semibold">
+                      4.9/521
+                    </span>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                  </div>
+      
+                  <button class="btn my-4 bg-[#00ABBD] text-[#fff] hover:text-[black]" onclick="my_modal_1.showModal()">
+                    Enrol Now <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <dialog id="my_modal_1" class="modal">
+                    <form method="dialog" class="modal-box">
+                      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                      <h3 class="font-bold text-lg">Web Design Crash Course</h3>
+                      <input placeholder="Enter Your payment Number" type="text" class="border-2 w-full my-4 p-2 rounded-xl">
+                      <button class="btn bg-[#00ABBD] text-[#fff] hover:text-[black]">
+                        Payment
+                      </button>
+                      <img class="md:w-2/6 h-20 mt-10" src="images/payment.webp" alt="">
+                    </form>
+                  </dialog>
+      
+                </div>
+              </div>
+      
+              <div class="border-2 rounded-xl cursor-pointer overflow-hidden">
+                <img class="w-full" src="images/ReactJs.png" alt="">
+                <div class="p-4">
+                  <h2 class="text-sm md:text-xl font-bold my-2 text-[#00ABBD]">React Crash Course</h2>
+                  <div class="flex items-center my-4">
+                    <img class="w-14 h-14 border-4 mr-4 border-[#00ABBD] rounded-full" src="images/dev-nerob.jpg" alt="">
+                    <div>
+                      <h2 class="text-xl font-bold">Mentor</h2>
+                      <p class="font-bold text-[#5F6368]">Dev. Nimur Rahman Nerob</p>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="text-sm font-semibold">
+                      4.9/521
+                    </span>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                  </div>
+      
+                  <!-- You can open the modal using ID.showModal() method -->
+                  <button class="btn my-4 bg-[#00ABBD] text-[#fff] hover:text-[black]" onclick="my_modal_3.showModal()">
+                    Enrol Now <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <dialog id="my_modal_3" class="modal">
+                    <form method="dialog" class="modal-box">
+                      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                      <h3 class="font-bold text-lg">React Crash Course</h3>
+                      <input placeholder="Enter Your payment Number" type="text" class="border-2 w-full my-4 p-2 rounded-xl">
+                      <button class="btn bg-[#00ABBD] text-[#fff] hover:text-[black]">
+                        Payment
+                      </button>
+                      <img class="md:w-2/6 h-20 mt-10" src="images/payment.webp" alt="">
+                    </form>
+                  </dialog>
+      
+                </div>
+              </div>
+      
+              <div class="border-2 rounded-xl cursor-pointer overflow-hidden">
+                <img class="w-full" src="images/mern.png" alt="">
+                <div class="p-4">
+                  <h2 class="text-sm md:text-xl font-bold my-2 text-[#00ABBD]">MERN Stack Crash Course</h2>
+                  <div class="flex items-center my-4">
+                    <img class="w-14 h-14 border-4 mr-4 border-[#00ABBD] rounded-full" src="images/dev-jony.jpg" alt="">
+                    <div>
+                      <h2 class="text-xl font-bold">Mentor</h2>
+                      <p class="font-bold text-[#5F6368]">Dev. Jony CMT</p>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="text-sm font-semibold">
+                      4.9/521
+                    </span>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                    <i class="fa-solid fa-star text-[orange]"></i>
+                  </div>
+      
+                  <button class="btn my-4 bg-[#00ABBD] text-[#fff] hover:text-[black]" onclick="my_modal_2.showModal()">
+                    Enrol Now <i class="fa-solid fa-cart-plus"></i>
+                  </button>
+                  <dialog id="my_modal_2" class="modal">
+                    <form method="dialog" class="modal-box">
+                      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                      <h3 class="font-bold text-lg">MERN Stack Crash Course</h3>
+                      <input placeholder="Enter Your payment Number" type="text" class="border-2 w-full my-4 p-2 rounded-xl">
+                      <button class="btn bg-[#00ABBD] text-[#fff] hover:text-[black]">
+                        Payment
+                      </button>
+                      <img class="md:w-2/6 h-20 mt-10" src="images/payment.webp" alt="">
+                    </form>
+                  </dialog>
+      
+                </div>
+              </div>
+      
+            </div>
+      
+          </section>
+    </main>
+
+</body>
+</html>
