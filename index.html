@@ -1,61 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-learning</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-learning</title>
+  <link rel="shortcut icon" href="images/fabeicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
-    <nav class="w-10/12 mx-auto">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Home</a></li>
-                  <li><a>Course</a></li>
-                  <li><a>Team</a></li>
-                  <li><a>Contact</a></li>
-                </ul>
-              </div>
-              <a class="normal-case cursor-pointer text-xl ">
-                <img class="w-40" src="images/logo1.png" alt="">
-              </a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 font-bold text-[#96989B]">
-                <li><a class="text-[black]">Home</a></li>
-                <li><a>Course</a></li>
-                <li><a> Team</a></li>
-                <li><a> Contact</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="py-3 px-5 cursor-pointer font-bold bg-[#FE7243] rounded-full text-[#fff]">Sign Up</a>
-            </div>
-          </div>
-    </nav>
 
-    <main class="w-10/12 mx-auto">
-        <div class="grid grid-cols-2 gap-4 items-center my-8">
-            <div>
-                <h2 class="text-5xl font-bold my-4">Access Your Class From 
-                    <span class="text-[#00ABBD]">Anywhere & Anytime</span></h2>
-                <p class="text-[#96989B] text-lg">A solution for easy and flexible online learning, you can study anywhere and at anytime on this platform</p>
-                <div>
-                    
-                </div>
-            </div>
-            <div>
-                <img src="images/Home-fimail.png" alt="">
-            </div>
+<body>
+  <nav class="md:w-10/12 w-11/12 mx-auto">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>Course</a></li>
+            <li><a>Team</a></li>
+            <li><a>Contact</a></li>
+          </ul>
         </div>
-    </main>
+        <a class="normal-case cursor-pointer text-xl ">
+          <img class="w-40" src="images/logo1.png" alt="">
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 font-bold text-[#96989B]">
+          <li><a class="text-[black]">Home</a></li>
+          <li><a>Course</a></li>
+          <li><a> Team</a></li>
+          <li><a> Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a
+          class="md:py-3 px-3 py-2 md:px-5 cursor-pointer font-bold bg-[#FE7243] rounded-full text-[#fff] flex items-center">Sign
+          Up <i class="fa-solid fa-arrow-right ml-2"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="w-10/12 mx-auto">
+    <section>
+      <div class="grid md:grid-cols-2 gap-4 items-center my-8 justify-between">
+        <div>
+          <h2 class="text-4xl md:text-7xl font-bold my-4">Access Your Class From
+            <span class="text-[#00ABBD]">Anywhere & Anytime</span>
+          </h2>
+          <p class="text-[#96989B] text-sm md:text-lg">A solution for easy and flexible online learning, you can study
+            anywhere and at anytime on this platform</p>
+          <div class="">
+            <a
+              class="text-center py-3 px-5 inline-block my-4 cursor-pointer font-bold bg-[#FE7243] rounded-full text-[#fff]  items-center">Join
+              For Free <i class="fa-solid fa-arrow-right ml-2"></i></a>
+          </div>
+        </div>
+        <div>
+          <img src="images/Home-fimail.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- company brand logo  -->
+    <section class="bg-[#ffffee94] p-8  my-10 ">
+      <div class="flex gap-8 justify-center md:justify-between flex-wrap">
+        <img class="w-20 cursor-pointer md:w-36 h-20" src="images/brandLogo/Vector.svg" alt="">
+        <img class="w-20 cursor-pointer md:w-36 h-20" src="images/brandLogo/udamy.svg" alt="">
+        <img class="w-20 cursor-pointer md:w-36 h-20" src="images/brandLogo/users.svg" alt="">
+        <img class="w-20 cursor-pointer md:w-36 h-20" src="images/brandLogo/google.svg" alt="">
+        <img class="w-20 cursor-pointer md:w-36 h-20" src="images/brandLogo/facebook.svg" alt="">
+        <img class="w-20 cursor-pointer md:w-36 h-20" src="images/brandLogo/zoom.svg" alt="">
+      </div>
+    </section>
+
+    <!-- Popular Categories  -->
+    <section class="my-10">
+      <h2 class="text-sm md:text-xl font-semibold text-[#00ABBD]">Popular Categories</h2>
+      <h3 class="text-2xl md:text-4xl font-bold text-[#5F6368]">Explore the most popular categories</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-10">
+
+        <div class="border-2 rounded-xl cursor-pointer overflow-hidden">
+          <img class="w-full" src="images/webdesign.png" alt="">
+          <div class="p-4">
+            <h2 class="text-sm md:text-xl font-bold my-2 text-[#00ABBD]">Web Design Crash Course</h2>
+            <div class="flex items-center my-4">
+              <img class="w-14 h-14 border-4 mr-4 border-[#00ABBD] rounded-full" src="images/dev-dipok.jpg" alt="">
+              <div>
+                <h2 class="text-xl font-bold">Mentor</h2>
+                <p class="font-bold text-[#5F6368]">Dev. Dipok Roy</p>
+              </div>
+            </div>
+            <div>
+              <span class="text-sm font-semibold">
+                4.9/521
+              </span>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+            </div>
+
+            <button class="btn my-4 bg-[#00ABBD] text-[#fff] hover:text-[black]" onclick="my_modal_1.showModal()">
+              Enrol Now <i class="fa-solid fa-cart-plus"></i>
+            </button>
+            <dialog id="my_modal_1" class="modal">
+              <form method="dialog" class="modal-box">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                <h3 class="font-bold text-lg">MERN Stack Crash Course</h3>
+                    <input placeholder="Enter Your payment Number" type="text" class="border-2 w-full my-4 p-2 rounded-xl">
+                    <button class="btn bg-[#00ABBD] text-[#fff] hover:text-[black]">
+                      Payment
+                    </button>
+                <img class="md:w-2/6 h-20 mt-10" src="images/payment.webp" alt="">
+              </form>
+            </dialog>
+
+          </div>
+        </div>
+
+        <div class="border-2 rounded-xl cursor-pointer overflow-hidden">
+          <img class="w-full" src="images/ReactJs.png" alt="">
+          <div class="p-4">
+            <h2 class="text-sm md:text-xl font-bold my-2 text-[#00ABBD]">React Crash Course</h2>
+            <div class="flex items-center my-4">
+              <img class="w-14 h-14 border-4 mr-4 border-[#00ABBD] rounded-full" src="images/dev-nerob.jpg" alt="">
+              <div>
+                <h2 class="text-xl font-bold">Mentor</h2>
+                <p class="font-bold text-[#5F6368]">Dev. Nimur Rahman Nerob</p>
+              </div>
+            </div>
+            <div>
+              <span class="text-sm font-semibold">
+                4.9/521
+              </span>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+            </div>
+
+            <!-- You can open the modal using ID.showModal() method -->
+            <button class="btn my-4 bg-[#00ABBD] text-[#fff] hover:text-[black]" onclick="my_modal_3.showModal()">
+              Enrol Now <i class="fa-solid fa-cart-plus"></i>
+            </button>
+            <dialog id="my_modal_3" class="modal">
+              <form method="dialog" class="modal-box">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                <h3 class="font-bold text-lg">React Crash Course</h3>
+                    <input placeholder="Enter Your payment Number" type="text" class="border-2 w-full my-4 p-2 rounded-xl">
+                    <button class="btn bg-[#00ABBD] text-[#fff] hover:text-[black]">
+                      Payment
+                    </button>
+                <img class="md:w-2/6 h-20 mt-10" src="images/payment.webp" alt="">
+              </form>
+            </dialog>
+
+          </div>
+        </div>
+
+        <div class="border-2 rounded-xl cursor-pointer overflow-hidden">
+          <img class="w-full" src="images/mern.png" alt="">
+          <div class="p-4">
+            <h2 class="text-sm md:text-xl font-bold my-2 text-[#00ABBD]">MERN Stack Crash Course</h2>
+            <div class="flex items-center my-4">
+              <img class="w-14 h-14 border-4 mr-4 border-[#00ABBD] rounded-full" src="images/dev-jony.jpg" alt="">
+              <div>
+                <h2 class="text-xl font-bold">Mentor</h2>
+                <p class="font-bold text-[#5F6368]">Dev. Jony CMT</p>
+              </div>
+            </div>
+            <div>
+              <span class="text-sm font-semibold">
+                4.9/521
+              </span>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+              <i class="fa-solid fa-star text-[orange]"></i>
+            </div>
+
+            <button class="btn my-4 bg-[#00ABBD] text-[#fff] hover:text-[black]" onclick="my_modal_2.showModal()">
+              Enrol Now <i class="fa-solid fa-cart-plus"></i>
+            </button>
+            <dialog id="my_modal_2" class="modal">
+              <form method="dialog" class="modal-box">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                <h3 class="font-bold text-lg">MERN Stack Crash Course</h3>
+                    <input placeholder="Enter Your payment Number" type="text" class="border-2 w-full my-4 p-2 rounded-xl">
+                    <button class="btn bg-[#00ABBD] text-[#fff] hover:text-[black]">
+                      Payment
+                    </button>
+                <img class="md:w-2/6 h-20 mt-10" src="images/payment.webp" alt="">
+              </form>
+            </dialog>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
 
 </body>
+
 </html>
